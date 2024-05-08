@@ -34,7 +34,6 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-/* write all the steps invloved */
 step-1 Go to quartus software.
 
 step-2 Set new environment.
@@ -48,11 +47,14 @@ step-5 Give inputs in the waveform table .
 step-6 Run the program.
 
 
-
 **PROGRAM**
-
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by:N.BHARATH RegisterNumber:212223230030
-*/```
+```
+/* Program for flipflops and verify its truth table in quartus using Verilog programming.
+Developed by:N.Navya Sree
+RegisterNumber:212223040138
+*/
+```
+```
 module JKFLIPFLOP(q, qb,j,k,clock,reset);
     input j,k,clock,reset;
     output reg q, qb;
@@ -88,17 +90,16 @@ end
 endmodule
 ```
 
+**RTL LOGIC FOR FLIPFLOPS**
 
-*RTL LOGIC FOR FLIPFLOPS**
-![Screenshot 2024-05-08 140251](https://github.com/BHARATHNATRAJAN/JKFLIPFLOP-USING-IF-ELSE/assets/147473529/6b13e8e5-5f92-4151-9c30-ea1fb4281271)
-
+![image](https://github.com/23004513/JKFLIPFLOP-USING-IF-ELSE/assets/138973069/48cc0eb5-e90d-45bd-bb4e-000dcf05a796)
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
-![Screenshot 2024-05-08 140312](https://github.com/BHARATHNATRAJAN/JKFLIPFLOP-USING-IF-ELSE/assets/147473529/e5afa866-0bfc-4766-a52f-db5308256dfc)
+
+![image](https://github.com/23004513/JKFLIPFLOP-USING-IF-ELSE/assets/138973069/d4b06ea5-ea16-4979-8e0c-56e0bf0706b1)
 
 
 **RESULTS**
+
 Thus,the code executed successfully.
-
-
